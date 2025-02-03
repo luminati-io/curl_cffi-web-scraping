@@ -51,11 +51,11 @@ This makes the requests resemble those from a real browser, aiding in bypassing 
 
 Let's try to scrape the “Keyboard” page from Walmart:  
 
-![The Walmart “Keyboard” product page](https://paper-attachments.dropboxusercontent.com/s_5A13EDF6E0EA32867C0C89DFE864B4C8FA81CE91CC8CE80729F465B232BE7073_1737992236291_image.png)
+![The Walmart “Keyboard” product page](https://github.com/luminati-io/curl_cffi-web-scraping/blob/main/Images/s_5A13EDF6E0EA32867C0C89DFE864B4C8FA81CE91CC8CE80729F465B232BE7073_1737992236291_image.png)
 
 If you try to access this page using any HTTP client, you will receive the following error page:  
 
-![Note the response from the server](https://paper-attachments.dropboxusercontent.com/s_5A13EDF6E0EA32867C0C89DFE864B4C8FA81CE91CC8CE80729F465B232BE7073_1737992185267_image.png)
+![Note the response from the server](https://github.com/luminati-io/curl_cffi-web-scraping/blob/main/Images/s_5A13EDF6E0EA32867C0C89DFE864B4C8FA81CE91CC8CE80729F465B232BE7073_1737992185267_image.png)
 
 You will get this bot detection page even if you set the `User-Agent` to simulate a real browser because of TLS fingerprinting. This is where `curl_cffi` comes in handy.
 
